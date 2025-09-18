@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Grid } from "@mui/material";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
@@ -6,10 +5,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Header } from "@/components/common";
 
 import { AppProvider } from "@/providers";
-=======
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
->>>>>>> f7427d8 (Initial commit from Create Next App)
 import "./globals.css";
 
 const geistSans = Geist({
