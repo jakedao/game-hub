@@ -7,9 +7,7 @@ import { HEADER_HEIGHT } from "@/constants/config";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 
-type TOwnProps = {};
-const Header = (props: TOwnProps) => {
-  const {} = props;
+const Header = () => {
   const pathname = usePathname();
 
   const navLinks = [
@@ -22,11 +20,11 @@ const Header = (props: TOwnProps) => {
       container
       size={12}
       height={HEADER_HEIGHT}
-      justifyContent={"space-between"}
+      justifyContent="space-between"
       alignItems="center"
       paddingX={2}
-      position={"sticky"}
-      backgroundColor="#312014"
+      position="sticky"
+      bgcolor="#312014"
     >
       <Grid>
         <Image src="/images/logo.png" alt="main_logo" width={40} height={40} />
