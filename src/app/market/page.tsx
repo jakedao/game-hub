@@ -1,6 +1,4 @@
-type TOwnProps = {};
-const Marketplace = (props: TOwnProps) => {
-  const {} = props;
+const Marketplace = () => {
   return <div>Marketplace</div>;
 };
 export default Marketplace;

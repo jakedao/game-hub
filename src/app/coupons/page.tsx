@@ -5,9 +5,7 @@ import { EServer, TClaimForm } from "@/types/coupon";
 import { Grid } from "@mui/material";
 import { useState } from "react";
 
-type TOwnProps = {};
-const Coupons = (props: TOwnProps) => {
-  const {} = props;
+const Coupons = () => {
   const [formValues, setFormValues] = useState<TClaimForm>({
     server: EServer.ASIA,
     hiveId: "",
